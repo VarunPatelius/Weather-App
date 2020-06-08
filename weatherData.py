@@ -7,7 +7,7 @@ from timeit import default_timer as timer
 
 def api_key():
     config = configparser.ConfigParser()
-    config.read('config.ini')
+    config.read('configure.ini')
     return config['openweathermap']['api']
 
 
